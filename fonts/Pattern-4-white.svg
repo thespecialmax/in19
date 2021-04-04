@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4" height="4" viewBox="0 0 4 4">
+  <defs>
+    <clipPath id="clip-Pattern-4_white">
+      <rect width="4" height="4"/>
+    </clipPath>
+  </defs>
+  <g id="Pattern-4_white" data-name="Pattern-4 – white" clip-path="url(#clip-Pattern-4_white)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="2" height="2" fill="#fff"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="2" height="2" transform="translate(2 2)" fill="#fff"/>
+  </g>
+</svg>

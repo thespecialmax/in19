@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+	max-width:360px;
+}
+
+.demo{
+	/* width:300px; */
+	max-width:360px;
+}
+.heder_logo {
+  width:100%;
+  height:40px;
+  text-align:center;
+  /* background-color:#eb018c; */
+  display: block;
+  font-size:24px;
+  line-height: 36px;
+  margin-bottom: 10px;
+  font-family: Palanquin,sans-serif;
+}
+.heder_logo img{
+	padding-left:55px;
+	padding-top:5px;
+}
+.heder_linije {
+  width:100%;
+  height:10px;
+  background-image:url(../images/kosa_linija.gif);
+  background-repeat:repeat-x;
+  display: block;
+}
+.heder_kocka {
+  width:50px;
+  background-color:#ca0005;
+  -webkit-transform: skewX(14deg);
+  -moz-transform: skewX(14deg);
+  -ms-transform: skewX(14deg);
+  -o-transform: skewX(14deg);
+  transform: skewX(14deg);
+  position: absolute;
+  display: block;
+}
+.container{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.okvir_clanak{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.okvir_clanak img{
+	width:95%;
+	overflow:hidden;
+	display:block;
+}
+.okvir_clanak_slika{
+	width:36%;
+	height:67px;
+	float:left;
+	overflow:hidden;
+}
+.okvir_clanak_tekst{
+	font-family: "Noto Serif",serif;
+	font-size:15px;
+	letter-spacing:.5px; /* .85px; */
+	line-height: 17px;
+	font-weight:400;
+	text-decoration:none;
+	color:#000;
+	width:64%;
+	height: 75px;
+	display:block;
+	float:left;
+}
+.okvir_clanak_zaglavlje{
+	width:100%;
+	border-bottom:1px dotted;
+	color:#CCC;
+	display:block;
+	float:left;
+	margin-bottom:8px;
+}
+.okvir_clanak_tekst a{
+	text-decoration:none;
+	color:#000;
+}
+
+.izdavac {
+	position: absolute;
+	bottom: 7px;
+	right: 5px;
+	cursor: default;
+	color: #7d7d7d;
+	font-size: 10px;
+}
